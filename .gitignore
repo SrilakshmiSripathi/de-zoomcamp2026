@@ -1,0 +1,4 @@
+*.parquet
+01-docker-IaC/pipeline/.venv
+.ipynb_checkpoints
+.python-version
