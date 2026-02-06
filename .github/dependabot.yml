@@ -5,7 +5,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "pip"
+    directory: "/01-docker-IaC/pipeline"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/01-docker-IaC/pipeline"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker"
+    directory: "/02-workflow-orchestration"
     schedule:
       interval: "weekly"
