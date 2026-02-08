@@ -1,4 +1,4 @@
-# Data Engineering Zoomcamp 2026
+# Data Engineering Zoomcamp 2026 - Self-Paced. 
 
 | Homeworks, Workshop, Projects | Focus | Implementation Detail |
 | :---: | :---: | :---: |
